@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TelliYou</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>TelliYou</h1>
+    <p class="tagline">From play button to ‘aha!’ — just ask. ✨</p>
+
+    <form id="queryForm">
+      <input type="text" id="youtubeUrl" placeholder="Enter YouTube video link" required />
+
+      <div class="query-row">
+        <input type="text" id="query" placeholder="Ask your question..." required />
+      </div>
+
+      <div class="center-button">
+        <button type="submit" id="askBtn">Ask</button>
+      </div>
+
+      <textarea id="responseBox" placeholder="Answer will appear here..." readonly></textarea>
+
+      <div class="button-footer">
+        <button type="button" id="resetBtn">Reset</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

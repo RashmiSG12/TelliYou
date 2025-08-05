@@ -1,0 +1,30 @@
+# FastAPI core
+fastapi
+uvicorn
+
+# For async HTTP requests (if needed for Gemini or APIs)
+httpx
+
+# Pydantic for data validation
+pydantic
+
+# YouTube transcript fetcher
+youtube-transcript-api==0.6.1
+
+# LangChain core tools
+langchain>=0.1.46
+
+# Chroma vector store
+chromadb>=0.4.22
+
+# Embeddings via Hugging Face
+sentence-transformers
+
+# For Gemini or Google Generative AI
+google-generativeai
+
+# For environment variable support (if needed)
+python-dotenv
+
+yt-dlp
+webvtt-py

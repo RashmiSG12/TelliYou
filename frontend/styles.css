@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #00b4db, #38ef7d);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #023a62;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+textarea {
+  display: none;
+  resize: none;
+  overflow-y: hidden;
+  transition: height 0.3s ease;
+}
+
+.query-row {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#askBtn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background: linear-gradient(to right, #2bebc1, #6ebcfc);
+  color: rgba(12, 11, 11, 0.916);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+#askBtn:hover {
+  background: linear-gradient(to right, #01ebfc, #0283d9);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); /* sweet shadow */
+}
+
+.button-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#resetBtn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 10px;
+  background: #0283d9;
+  color: rgb(11, 10, 10);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+#resetBtn:hover {
+  background-color: #4167e1;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#responseBox {
+  display: none;
+  height: 300px;
+  resize: none;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
