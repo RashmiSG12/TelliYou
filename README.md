@@ -66,12 +66,12 @@ This is a simple web app that lets you input a YouTube video link and ask a ques
 
 ## 📸 Screenshots
 
-```
+
 ![Home Page](./images/Home%20page.png)
 ![Chat Output](./images/answer.png)
-![A Polite reply for out of context questions](./images/reply.png)
-![Another exmaple for the out of context question](./images/wrong%20question.png)
-```
+![A Polite reply for out of context questions](images/reply.png)
+![Another exmaple for the out of context question](images/wrong%20question.png)
+
 ---
 
 
