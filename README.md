@@ -66,9 +66,15 @@ This is a simple web app that lets you input a YouTube video link and ask a ques
 
 ## 📸 Screenshots
 
+### 🔹 Chatbot Interface
+![Home Page](./images/Home%20page.png) 
 
-![Home Page](./images/Home%20page.png)
+---
+### 🔹 Answering Questions
 ![Chat Output](./images/answer.png)
+
+---
+### 🔹 Out of context replies
 ![A Polite reply for out of context questions](images/reply.png)
 ![Another exmaple for the out of context question](images/wrong%20question.png)
 
